@@ -1,0 +1,32 @@
+.navs{
+    padding: 20px 20px;
+}
+.inner-navs1{
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Tạo hiệu ứng bóng mờ */
+}
+.inner-head1{
+    background: linear-gradient(to right, #f57f20, #d62b08);
+    border-top-left-radius: 10px; /* Bo góc trên bên trái */
+    border-top-right-radius: 10px; /* Bo góc trên bên phải */
+    border-bottom-left-radius: 0; /* Không bo góc dưới bên trái */
+    border-bottom-right-radius: 0; /* Không bo góc dưới bên phải */
+}
+.inner-body1{
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Tạo hiệu ứng bóng mờ */
+}
+.inner-cont{
+    padding: 15px 15px;
+}
+.custom-nav-tabs .nav-link {
+    color: white; /* Màu chữ mặc định */
+    background-color: transparent; /* Làm trong suốt nền */
+    border: none; /* Loại bỏ viền mặc định */
+    transition: color 0.3s ease; /* Hiệu ứng mượt khi đổi màu */
+}
+
+.custom-nav-tabs .nav-link.active {
+    color: blue; /* Màu chữ khi được chọn */
+    font-weight: bold; /* Tùy chọn: Làm đậm chữ khi được chọn */
+}

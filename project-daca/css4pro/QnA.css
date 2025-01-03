@@ -1,0 +1,31 @@
+
+.QnA .inner-header{
+    background: linear-gradient(to right, #f57f20, #d62b08);
+    border-top-left-radius: 10px; /* Bo góc trên bên trái */
+    border-top-right-radius: 10px; /* Bo góc trên bên phải */
+    border-bottom-left-radius: 0; /* Không bo góc dưới bên trái */
+    border-bottom-right-radius: 0; /* Không bo góc dưới bên phải */
+    
+}
+.QnA .cauhoi{
+    color: white; 
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.QnA .btn{
+    text-decoration: none;
+}
+.QnA .inner-body{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.QnA .inner-box{
+    /* border: 1px solid #d4d3d3; */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Tạo hiệu ứng bóng mờ */
+}
+.QnA .card-header{
+    background-color: white;
+    border: none;
+}

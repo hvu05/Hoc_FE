@@ -1,0 +1,14 @@
+.butt{
+    background-color: #f57f20; /* Màu nền ban đầu */
+    color: white;              /* Màu chữ */
+    border: none;              /* Bỏ viền */
+    border-radius: 5px;        /* Bo góc */
+    font-size: 16px;           /* Kích thước chữ */
+    cursor: pointer;          /* Con trỏ chuột khi hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển màu nền và phóng to/thu nhỏ */
+}
+.butt:hover
+{
+    background-color: #007bff; /* Màu nền khi hover */
+    transform: scale(1.05);     /* Phóng to nút một chút */
+}

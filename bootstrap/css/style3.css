@@ -1,0 +1,109 @@
+.QnA .inner-header{
+    background: linear-gradient(to right, #f57f20, #d62b08);
+    border-top-left-radius: 10px; /* Bo góc trên bên trái */
+    border-top-right-radius: 10px; /* Bo góc trên bên phải */
+    border-bottom-left-radius: 0; /* Không bo góc dưới bên trái */
+    border-bottom-right-radius: 0; /* Không bo góc dưới bên phải */
+    
+}
+.QnA .cauhoi{
+    color: white; 
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.QnA .btn{
+    text-decoration: none;
+}
+.QnA .inner-body{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.QnA .inner-box{
+    /* border: 1px solid #d4d3d3; */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Tạo hiệu ứng bóng mờ */
+}
+.QnA .card-header{
+    background-color: white;
+    border: none;
+}
+
+.contact{
+    padding-top: 40px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
+}
+
+.contact .tren{
+    font-size: 32px;
+    text-align: center;
+}
+.contact .duoi{
+    text-align: center;
+}
+.contact .contact-header{
+    background: linear-gradient(to right, #f57f20, #d62b08);
+    color: white;
+    border-top-left-radius: 10px; /* Bo góc trên bên trái */
+    border-top-right-radius: 10px; /* Bo góc trên bên phải */
+    border-bottom-left-radius: 0; /* Không bo góc dưới bên trái */
+    border-bottom-right-radius: 0; /* Không bo góc dưới bên phải */
+    padding-bottom: 5px;
+    
+}
+.contact .grad{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+.contact .cam{
+    padding-bottom: 15px;
+}
+.contact .gr2{
+    padding: 15px 15px;
+}
+.butt {
+    padding: 10px 20px;
+    background-color: #f57f20; /* Màu nền ban đầu */
+    color: white;              /* Màu chữ */
+    border: none;              /* Bỏ viền */
+    border-radius: 5px;        /* Bo góc */
+    font-size: 16px;           /* Kích thước chữ */
+    cursor: pointer;          /* Con trỏ chuột khi hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển màu nền và phóng to/thu nhỏ */
+}
+
+/* Hiệu ứng hover */
+.butt:hover {
+    background-color: #d62b08; /* Màu nền khi hover */
+    transform: scale(1.05);     /* Phóng to nút một chút */
+}
+.inner-header-model {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo cột */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    text-align: center; /* Căn giữa nội dung chữ */
+}
+.modal-logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #6c757d; /* Màu chữ xám nhạt */
+}
+#btn-consult {
+    position: fixed;
+    bottom: 20px; /* Khoảng cách từ đáy màn hình */
+    right: 20px; /* Khoảng cách từ cạnh phải */
+    z-index: 1050; /* Đảm bảo nút hiển thị trên modal */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+

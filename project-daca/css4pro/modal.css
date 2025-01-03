@@ -1,0 +1,83 @@
+.inner-header-model {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo cột */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    text-align: center; /* Căn giữa nội dung chữ */
+}
+.modal-logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.buttt {
+    padding: 10px 20px;
+    background-color: #f57f20; /* Màu nền ban đầu */
+    color: white;              /* Màu chữ */
+    border: none;              /* Bỏ viền */
+    border-radius: 5px;        /* Bo góc */
+    font-size: 16px;           /* Kích thước chữ */
+    cursor: pointer;          /* Con trỏ chuột khi hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển màu nền và phóng to/thu nhỏ */
+}
+
+/* Hiệu ứng hover */
+.buttt:hover {
+    background-color: #d62b08; /* Màu nền khi hover */
+    transform: scale(1.05);     /* Phóng to nút một chút */
+}
+.but-close{
+    padding: 10px 20px;
+    background-color: #5A6268; /* Màu nền ban đầu */
+    color: white;              /* Màu chữ */
+    border: none;              /* Bỏ viền */
+    border-radius: 5px;        /* Bo góc */
+    font-size: 16px;           /* Kích thước chữ */
+    cursor: pointer;          /* Con trỏ chuột khi hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển màu nền và phóng to/thu nhỏ */
+}
+.but-close:hover {
+    background-color: #007bff; /* Màu nền khi hover */
+    transform: scale(1.05);     /* Phóng to nút một chút */
+}
+.subtitle {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #6c757d; /* Màu chữ xám nhạt */
+}
+#btn-consult {
+    position: fixed;
+    bottom: 20px; /* Khoảng cách từ đáy màn hình */
+    right: 20px; /* Khoảng cách từ cạnh phải */
+    z-index: 1050; /* Đảm bảo nút hiển thị trên modal */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+#btn-consult {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background-color: #007bff; /* Màu nền */
+    color: white; /* Màu chữ */
+    animation: blink 1.5s infinite; /* Áp dụng animation */
+}
+
+/* Hiệu ứng nháy nháy */
+@keyframes blink {
+    0%, 100% {
+        box-shadow: 0 0 10px rgba(0, 123, 255, 0.8), 0 0 20px rgba(0, 123, 255, 0.6);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(0, 123, 255, 1), 0 0 30px rgba(0, 123, 255, 0.8);
+    }
+}
+

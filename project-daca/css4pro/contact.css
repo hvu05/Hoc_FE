@@ -1,0 +1,48 @@
+.contact{
+    padding-top: 40px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); */
+}
+
+.contact .tren{
+    font-size: 32px;
+    text-align: center;
+}
+.contact .duoi{
+    text-align: center;
+}
+.contact .contact-header{
+    background: linear-gradient(to right, #f57f20, #d62b08);
+    color: white;
+    border-top-left-radius: 10px; /* Bo góc trên bên trái */
+    border-top-right-radius: 10px; /* Bo góc trên bên phải */
+    border-bottom-left-radius: 0; /* Không bo góc dưới bên trái */
+    border-bottom-right-radius: 0; /* Không bo góc dưới bên phải */
+    padding-bottom: 5px;
+    
+}
+.contact .grad{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+.contact .cam{
+    padding-bottom: 15px;
+}
+.contact .gr2{
+    padding: 15px 15px;
+}
+.butt {
+    padding: 10px 20px;
+    background-color: #f57f20; /* Màu nền ban đầu */
+    color: white;              /* Màu chữ */
+    border: none;              /* Bỏ viền */
+    border-radius: 5px;        /* Bo góc */
+    font-size: 16px;           /* Kích thước chữ */
+    cursor: pointer;          /* Con trỏ chuột khi hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển màu nền và phóng to/thu nhỏ */
+}
+
+/* Hiệu ứng hover */
+.butt:hover {
+    background-color: #d62b08; /* Màu nền khi hover */
+    transform: scale(1.05);     /* Phóng to nút một chút */
+}

@@ -1,0 +1,21 @@
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-1, .col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section-two{
+    background: #EFF1F4;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.section-two .inner-box{
+    background: #FFF;
+    color: red;
+    margin-top: 25px;
+
+    /* font: tim; */
+}
