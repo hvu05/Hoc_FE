@@ -6,12 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-   <h1 id="item"> Noi dung</h1>
-   <script>
-        const box = document.querySelector("#item");
-        console.log(box.innerHTML);
+    <ul id="list">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
 
-        box.innerHTML = "test";        
-   </script>
+    <button id="addButton">them...</button>
+    <script>
+        const menu = document.querySelector("#list");
+        const butt = document.querySelector("#addButton");
+
+        butt.onclick = function() {
+            const newItem = document.createElement("input");
+            newItem.innerHTML = "moi tao";
+            newItem.placeholder = "Enter task";
+
+            menu.appendChild(newItem);
+        }
+    </script>
 </body>
 </html>
